@@ -1,4 +1,4 @@
-# Pewlett-Hackard-Analysis
+#Pewlett-Hackard-Analysis
 #Overview of the analysis:
 
 The purpose of the analysis is to determine from data tables present in the data folder of this github repositories the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program
@@ -17,4 +17,13 @@ The analysis involved retreiving  the a list retiring employee number, name, tit
 Retreived the number of  different position within the Pwelet Hackard Company 
 Table mentorship elgibility retreieve  list of employees eligible for mentorship which are current employees 
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+93098 roles need to be filled out as the "silver tsunami" begins to make an impact
+There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees
+
+Queries:
+
+select count(emp_no) from unique_titles
+
+select count(emp_no) from mentorship_eligibilty
+
+
